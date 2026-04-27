@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fabrimafe.github.io/teaching/sfs.html</loc>
-    <lastmod>2026-04-27T13:07:12.591Z</lastmod>
+    <loc>https://fabrimafe.github.io/teaching/spatialPD.html</loc>
+    <lastmod>2026-04-27T19:54:08.811Z</lastmod>
   </url>
   <url>
-    <loc>https://fabrimafe.github.io/research.html</loc>
-    <lastmod>2026-04-27T14:45:24.154Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabrimafe.github.io/index.html</loc>
-    <lastmod>2026-04-27T14:38:39.859Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabrimafe.github.io/about.html</loc>
-    <lastmod>2026-04-27T13:07:12.476Z</lastmod>
+    <loc>https://fabrimafe.github.io/teaching/bh.html</loc>
+    <lastmod>2026-04-27T19:58:17.067Z</lastmod>
   </url>
   <url>
     <loc>https://fabrimafe.github.io/publications.html</loc>
     <lastmod>2026-04-27T13:07:12.545Z</lastmod>
   </url>
   <url>
+    <loc>https://fabrimafe.github.io/about.html</loc>
+    <lastmod>2026-04-27T13:07:12.476Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fabrimafe.github.io/index.html</loc>
+    <lastmod>2026-04-27T19:31:38.983Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fabrimafe.github.io/research.html</loc>
+    <lastmod>2026-04-27T14:45:24.154Z</lastmod>
+  </url>
+  <url>
     <loc>https://fabrimafe.github.io/teaching/index.html</loc>
-    <lastmod>2026-04-27T13:07:12.585Z</lastmod>
+    <lastmod>2026-04-27T19:43:51.994Z</lastmod>
   </url>
 </urlset>

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-05">
 
-<title>Code &amp; Analyses – Fabrizio Mafessoni</title>
+<title>Bet-Hedging example for the Course Evolutionary Biology 2025/2026 – Fabrizio Mafessoni</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -104,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -130,10 +166,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#evolutionary-biology" id="toc-evolutionary-biology" class="nav-link active" data-scroll-target="#evolutionary-biology">Evolutionary Biology</a></li>
-  <li><a href="#population-genetics" id="toc-population-genetics" class="nav-link" data-scroll-target="#population-genetics">🧬 Population genetics</a></li>
-  <li><a href="#command-line-pipelines" id="toc-command-line-pipelines" class="nav-link" data-scroll-target="#command-line-pipelines">🧰 Command-line &amp; pipelines</a></li>
-  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">🔬 Reproducibility</a></li>
+  <li><a href="#idea" id="toc-idea" class="nav-link active" data-scroll-target="#idea">Idea</a></li>
+  <li><a href="#simulation" id="toc-simulation" class="nav-link" data-scroll-target="#simulation">Simulation</a></li>
   </ul>
 </nav>
     </div>
@@ -142,14 +176,23 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Code &amp; Analyses</h1>
-</div>
+<h1 class="title">Bet-Hedging example for the Course Evolutionary Biology 2025/2026</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">evobio</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 5, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -159,35 +202,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page collects small analyses, code snippets, and computational notes.</p>
-<p>These are not full projects, but reusable ideas, tests, or teaching material.</p>
-<hr>
-<section id="evolutionary-biology" class="level2">
-<h2 class="anchored" data-anchor-id="evolutionary-biology">Evolutionary Biology</h2>
-<ul>
-<li><p><a href="../teaching/bh.html">Bed-Hedging</a> Bet-hedging example in R. For more see ‘https://github.com/tecoevo/informativecues’</p></li>
-<li><p><a href="../teaching/spatialPD.html">Spatial-PD</a> Spatial Prisoner’s Dilemma in R.</p></li>
-</ul>
+<section id="idea" class="level2">
+<h2 class="anchored" data-anchor-id="idea">Idea</h2>
+<p>Bet-hedging is often the best an organism can do to face environmental uncertainty when learning/plasticity is not an option. Here we explore a simple model of bet-hedging (for more see https://github.com/tecoevo/informativecues) as a baseline for the evolution of plasticity. In this “desert”, where it rains with probability 6 years out of 10, plants can either germinate or remain dormant. The lineages that minimize the variance the most (0.5 probability of germinating) have the highest long-term fitness.</p>
 </section>
-<section id="population-genetics" class="level2">
-<h2 class="anchored" data-anchor-id="population-genetics">🧬 Population genetics</h2>
-<ul>
-<li><a href="wf_simulation.qmd">Wright–Fisher simulations</a><br>
-Simple forward simulations in R.</li>
-</ul>
-<hr>
-</section>
-<section id="command-line-pipelines" class="level2">
-<h2 class="anchored" data-anchor-id="command-line-pipelines">🧰 Command-line &amp; pipelines</h2>
-<ul>
-<li><a href="awk_tricks.qmd">AWK tricks</a><br>
-Useful one-liners for filtering and parsing.</li>
-</ul>
-<hr>
-</section>
-<section id="reproducibility" class="level2">
-<h2 class="anchored" data-anchor-id="reproducibility">🔬 Reproducibility</h2>
-<p>All pages are generated with Quarto and include executable code when relevant.</p>
+<section id="simulation" class="level2">
+<h2 class="anchored" data-anchor-id="simulation">Simulation</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>T <span class="ot">&lt;-</span> <span class="dv">200</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Probability of good rain year</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>q <span class="ot">&lt;-</span> <span class="fl">0.6</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>env <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(T, <span class="dv">1</span>, <span class="at">prob =</span> q)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Strategies: fraction germinating</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>p_values <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">0.5</span>, <span class="fl">0.2</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>results <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (p <span class="cf">in</span> p_values) {</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  N <span class="ot">&lt;-</span> <span class="fu">numeric</span>(T)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  N[<span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (t <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span>T) {</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (env[t] <span class="sc">==</span> <span class="dv">1</span>) {</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      <span class="co"># good year: germinated seeds reproduce</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>      W <span class="ot">&lt;-</span> p <span class="sc">*</span> <span class="dv">4</span> <span class="sc">+</span> (<span class="dv">1</span> <span class="sc">-</span> p) <span class="sc">*</span> <span class="dv">1</span>   <span class="co"># dormant survive</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>      <span class="co"># bad year: germinated suffer</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>      W <span class="ot">&lt;-</span> p <span class="sc">*</span> <span class="fl">0.1</span> <span class="sc">+</span> (<span class="dv">1</span> <span class="sc">-</span> p) <span class="sc">*</span> <span class="dv">1</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    N[t] <span class="ot">&lt;-</span> N[t<span class="dv">-1</span>] <span class="sc">*</span> W</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  results[[<span class="fu">as.character</span>(p)]] <span class="ot">&lt;-</span> N</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(results[[<span class="dv">1</span>]], <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">log =</span> <span class="st">"y"</span>, <span class="at">lwd =</span> <span class="dv">2</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Generation"</span>, <span class="at">ylab =</span> <span class="st">"Population size (log scale)"</span>,</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Seed dormancy as bet-hedging"</span>,<span class="at">ylim=</span><span class="fu">c</span>(<span class="fu">min</span>(results[[<span class="dv">1</span>]]),<span class="fu">max</span>(<span class="fu">unlist</span>(results))<span class="sc">+</span><span class="dv">50</span>),<span class="at">cex=</span><span class="dv">2</span>,<span class="at">col=</span><span class="fu">c</span>(<span class="st">"forestgreen"</span>))</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(results[[<span class="st">"0.5"</span>]], <span class="at">lwd =</span> <span class="dv">2</span>, <span class="at">lty =</span> <span class="dv">2</span>,<span class="at">col=</span><span class="st">"darkgoldenrod"</span>)</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(results[[<span class="st">"0.2"</span>]], <span class="at">lwd =</span> <span class="dv">2</span>, <span class="at">lty =</span> <span class="dv">3</span>,<span class="at">col=</span><span class="st">"gold1"</span>)</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">"bottomleft"</span>,</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend =</span> <span class="fu">c</span>(<span class="st">"p=1 (no dormancy)"</span>, <span class="st">"p=0.5"</span>, <span class="st">"p=0.2"</span>),</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>       <span class="at">lty =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">lwd =</span> <span class="dv">2</span>,<span class="at">col=</span><span class="fu">c</span>(<span class="st">"forestgreen"</span>,<span class="st">"darkgoldenrod"</span>,<span class="st">"gold1"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bh_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>

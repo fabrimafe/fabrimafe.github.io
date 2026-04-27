@@ -1,0 +1,346 @@
+---
+title: "Publications"
+---
+[My Google Scholar](https://scholar.google.com/citations?user=8ZpAKoUAAAAJ&hl=en&oi=ao){target="_blank"}
+
+\* indicates authors with equal contributions
+
+```{=html}
+<div id="refs" class="references csl-bib-body" data-line-spacing="2"
+role="list">
+<div id="ref-massilani_high-coverage_2026" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">1. </div><div
+class="csl-right-inline">Massilani, D., Peyrégne, S., Iasi, L. N. M.,
+Filippo, C. de, <strong>Mafessoni,</strong> F., Bossoms Mesa, A., Sümer,
+A. P., Swiel, Y., Popli, D., Silverman, S., Boyle, M. J., Kozlikin, M.
+B., Shunkov, M. V., Derevianko, A. P., Higham, T., Douka, K., Meyer, M.,
+Zeberg, H., Kelso, J. &amp; Pääbo, S. <a
+href="https://doi.org/10.1073/pnas.2534576123">A high-coverage
+<span>Neandertal</span> genome from the <span>Altai</span>
+<span>Mountains</span> reveals population structure among
+<span>Neandertals</span></a>. <em>Proceedings of the National Academy of
+Sciences</em> <strong>123</strong>, e2534576123 (2026).</div>
+</div>
+<div id="ref-sumer_earliest_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div
+class="csl-right-inline">Sümer, A. P., Rougier, H., Villalba-Mouco, V.,
+Huang, Y., Iasi, L. N. M., Essel, E., Bossoms Mesa, A., Furtwaengler,
+A., Peyrégne, S., Filippo, C. de, Rohrlach, A. B., Pierini, F.,
+<strong>Mafessoni,</strong> F., Fewlass, H., Zavala, E. I.,
+Mylopotamitaki, D., Bianco, R. A., Schmidt, A., Zorn, J., Nickel, B.,
+Patova, A., Posth, C., Smith, G. M., Ruebens, K., Sinet-Mathiot, V.,
+Stoessel, A., Dietl, H., Orschiedt, J., Kelso, J., Zeberg, H., Bos, K.
+I., Welker, F., Weiss, M., McPherron, S. P., Schüler, T., Hublin, J.-J.,
+Velemínský, P., Brůžek, J., Peter, B. M., Meyer, M., Meller, H.,
+Ringbauer, H., Hajdinjak, M., Prüfer, K. &amp; Krause, J. <a
+href="https://doi.org/10.1038/s41586-024-08420-x">Earliest modern human
+genomes constrain timing of <span>Neanderthal</span> admixture</a>.
+<em>Nature</em> <strong>638</strong>, 711–717 (2025).</div>
+</div>
+<div id="ref-baruch_multi-omics_2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div
+class="csl-right-inline">Baruch, O., Levy, A. A. &amp;
+<strong>Mafessoni,</strong> F. A multi-omics approach to identify
+deleterious mutations in plants. (2024) doi:<a
+href="https://doi.org/10.1101/2024.08.22.609273">10.1101/2024.08.22.609273</a>.</div>
+</div>
+<div id="ref-ben-tov_uncovering_2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div
+class="csl-right-inline">Ben-Tov*, D., <strong>Mafessoni*,</strong> F.,
+Cucuy, A., Honig, A., Melamed-Bessudo, C. &amp; Levy, A. A. <a
+href="https://doi.org/10.1038/s41467-024-49410-x">Uncovering the
+dynamics of precise repair at
+<span>CRISPR</span>/<span>Cas9</span>-induced double-strand breaks</a>.
+<em>Nature Communications</em> <strong>15</strong>, 5096 (2024).</div>
+</div>
+<div id="ref-tramacere_cognitive_2024" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">5. </div><div
+class="csl-right-inline">Tramacere, A. &amp; <strong>Mafessoni,</strong>
+F. <a href="https://doi.org/10.1007/s13164-022-00670-w">Cognitive
+<span>Twists</span>: <span>The</span> <span>Coevolution</span> of
+<span>Learning</span> and <span>Genes</span> in <span>Human</span>
+<span>Cognition</span></a>. <em>Review of Philosophy and Psychology</em>
+<strong>15</strong>, 189–217 (2024).</div>
+</div>
+<div id="ref-dahan-meir_36-year_2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div
+class="csl-right-inline">Dahan-Meir, T., Ellis, T. J.,
+<strong>Mafessoni,</strong> F., Sela, H., Rudich, O., Manisterski, J.,
+Avivi-Ragolsky, N., Raz, A., Feldman, M., Anikster, Y., Nordborg, M.
+&amp; Levy, A. A. <a href="https://doi.org/10.1111/mec.17512">36-year
+study reveals stability of a wild wheat population across
+microhabitats</a>. <em>Molecular Ecology</em> <strong>33</strong>,
+e17512 (2024).</div>
+</div>
+<div id="ref-samach_crisprcas9-induced_2023" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">7. </div><div
+class="csl-right-inline">Samach*, A., <strong>Mafessoni*,</strong> F.,
+Gross*, O., Melamed-Bessudo, C., Filler-Hayut, S., Dahan-Meir, T.,
+Amsellem, Z., Pawlowski, W. P. &amp; Levy, A. A.
+<span>CRISPR</span>/<span>Cas9</span>-induced <span>DNA</span> breaks
+trigger crossover, chromosomal loss, and chromothripsis-like
+rearrangements. <em>The Plant Cell</em> koad209 (2023) doi:<a
+href="https://doi.org/10.1093/plcell/koad209">10.1093/plcell/koad209</a>.</div>
+</div>
+<div id="ref-tkaczynski_shared_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div
+class="csl-right-inline">Tkaczynski*, P. J., <strong>Mafessoni*,</strong>
+F., Girard-Buttoz, C., Samuni, L., Ackermann, C. Y., Fedurek, P., Gomes,
+C., Hobaiter, C., Löhrich, T., Manin, V., Preis, A., Valé, P. D.,
+Wessling, E. G., Wittiger, L., Zommers, Z., Zuberbuehler, K., Vigilant,
+L., Deschner, T., Wittig, R. M. &amp; Crockford, C. <a
+href="https://doi.org/10.1038/s42003-023-04909-9">Shared community
+effects and the non-genetic maternal environment shape cortisol levels
+in wild chimpanzees</a>. <em>Communications Biology</em>
+<strong>6</strong>, 565 (2023).</div>
+</div>
+<div id="ref-li_genome_2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Li,
+L.-F., Zhang, Z.-B., Wang, Z.-H., Li, N., Sha, Y., Wang, X.-F., Ding,
+N., Li, Y., Zhao, J., Wu, Y., Gong, L., <strong>Mafessoni,</strong> F.,
+Levy, A. A. &amp; Liu, B. <a
+href="https://doi.org/10.1016/j.molp.2021.12.019">Genome sequences
+of five <span>Sitopsis</span> species of <span>Aegilops</span> and the
+origin of polyploid wheat <span>B</span> subgenome</a>. <em>Molecular
+Plant</em> <strong>15</strong>, 488–503 (2022).</div>
+</div>
+<div id="ref-mafessoni_fitness_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F., Lachmann, M.
+&amp; Gokhale, C. S. <a
+href="https://doi.org/10.1016/j.jtbi.2021.110819">On the fitness of
+informative cues in complex environments</a>. <em>Journal of Theoretical
+Biology</em> <strong>527</strong>, 110819 (2021).</div>
+</div>
+<div id="ref-vernot_unearthing_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div
+class="csl-right-inline">Vernot, B., Zavala, E. I., Gómez-Olivencia, A.,
+Jacobs, Z., Slon, V., <strong>Mafessoni,</strong> F., Romagné, F.,
+Pearson, A., Petr, M., Sala, N., Pablos, A., Aranburu, A., Castro, J. M.
+B. de, Carbonell, E., Li, B., Krajcarz, M. T., Krivoshapkin, A. I.,
+Kolobova, K. A., Kozlikin, M. B., Shunkov, M. V., Derevianko, A. P.,
+Viola, B., Grote, S., Essel, E., Herráez, D. L., Nagel, S., Nickel, B.,
+Richter, J., Schmidt, A., Peter, B., Kelso, J., Roberts, R. G., Arsuaga,
+J.-L. &amp; Meyer, M. <a
+href="https://doi.org/10.1126/science.abf1667">Unearthing
+<span>Neanderthal</span> population history using nuclear and
+mitochondrial <span>DNA</span> from cave sediments</a>. <em>Science (New
+York, N.Y.)</em> <strong>372</strong>, eabf1667 (2021).</div>
+</div>
+<div id="ref-reinscheid_neandertal_2021" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">12. </div><div
+class="csl-right-inline">Reinscheid, R. K., <strong>Mafessoni,</strong>
+F., Lüttjohann, A., Jüngling, K., Pape, H.-C. &amp; Schulz, S. <a
+href="https://doi.org/10.1016/j.peptides.2021.170506">Neandertal
+introgression and accumulation of hypomorphic mutations in the
+neuropeptide <span>S</span> (<span>NPS</span>) system promote attenuated
+functionality</a>. <em>Peptides</em> <strong>138</strong>, 170506
+(2021).</div>
+</div>
+<div id="ref-hajdinjak_initial_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div
+class="csl-right-inline">Hajdinjak, M., <strong>Mafessoni,</strong> F.,
+Skov, L., Vernot, B., Hübner, A., Fu, Q., Essel, E., Nagel, S., Nickel,
+B., Richter, J., Moldovan, O. T., Constantin, S., Endarova, E.,
+Zahariev, N., Spasov, R., Welker, F., Smith, G. M., Sinet-Mathiot, V.,
+Paskulin, L., Fewlass, H., Talamo, S., Rezek, Z., Sirakova, S., Sirakov,
+N., McPherron, S. P., Tsanova, T., Hublin, J.-J., Peter, B. M., Meyer,
+M., Skoglund, P., Kelso, J. &amp; Pääbo, S. <a
+href="https://doi.org/10.1038/s41586-021-03335-3">Initial
+<span>Upper</span> <span>Palaeolithic</span> humans in
+<span>Europe</span> had recent <span>Neanderthal</span> ancestry</a>.
+<em>Nature</em> <strong>592</strong>, 253–257 (2021).</div>
+</div>
+<div id="ref-trucchi_population_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div
+class="csl-right-inline">Trucchi*, E., Gratton*, P.,
+<strong>Mafessoni*,</strong> F., Motta, S., Cicconardi, F., Mancia, F.,
+Bertorelle, G., D’Annessa, I. &amp; Di Marino, D. <a
+href="https://doi.org/10.1093/molbev/msaa337">Population
+<span>Dynamics</span> and <span>Structural</span> <span>Effects</span>
+at <span>Short</span> and <span>Long</span> <span>Range</span>
+<span>Support</span> the <span>Hypothesis</span> of the
+<span>Selective</span> <span>Advantage</span> of the <span>G614</span>
+<span>SARS</span>-<span>CoV</span>-2 <span>Spike</span>
+<span>Variant</span></a>. <em>Molecular Biology and Evolution</em>
+<strong>38</strong>, 1966–1979 (2021).</div>
+</div>
+<div id="ref-skov_nature_2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div
+class="csl-right-inline">Skov, L., Coll Macià, M., Sveinbjörnsson, G.,
+<strong>Mafessoni,</strong> F., Lucotte, E. A., Einarsdóttir, M. S.,
+Jonsson, H., Halldorsson, B., Gudbjartsson, D. F., Helgason, A.,
+Schierup, M. H. &amp; Stefansson, K. <a
+href="https://doi.org/10.1038/s41586-020-2225-9">The nature of
+<span>Neanderthal</span> introgression revealed by 27,566
+<span>Icelandic</span> genomes</a>. <em>Nature</em>
+<strong>582</strong>, 78–83 (2020).</div>
+</div>
+<div id="ref-mafessoni_high-coverage_2020" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">16. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F., Grote, S.,
+Filippo, C. de, Slon, V., Kolobova, K. A., Viola, B., Markin, S. V.,
+Chintalapati, M., Peyrégne, S., Skov, L., Skoglund, P., Krivoshapkin, A.
+I., Derevianko, A. P., Meyer, M., Kelso, J., Peter, B., Prüfer, K. &amp;
+Pääbo, S. <a href="https://doi.org/10.1073/pnas.2004944117">A
+high-coverage <span>Neandertal</span> genome from
+<span>Chagyrskaya</span> <span>Cave</span></a>. <em>Proceedings of the
+National Academy of Sciences</em> <strong>117</strong>, 15132–15136
+(2020).</div>
+</div>
+<div id="ref-barbieri_current_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div
+class="csl-right-inline">Barbieri, C., Barquera, R., Arias, L.,
+Sandoval, J. R., Acosta, O., Zurita, C., Aguilar-Campos, A.,
+Tito-Álvarez, A. M., Serrano-Osuna, R., Gray, R. D.,
+<strong>Mafessoni,</strong> F., Heggarty, P., Shimizu, K. K., Fujita,
+R., Stoneking, M., Pugach, I. &amp; Fehren-Schmitz, L. <a
+href="https://doi.org/10.1093/molbev/msz174">The <span>Current</span>
+<span>Genomic</span> <span>Landscape</span> of <span>Western</span>
+<span>South</span> <span>America</span>: <span>Andes</span>,
+<span>Amazonia</span>, and <span>Pacific</span> <span>Coast</span></a>.
+<em>Molecular Biology and Evolution</em> <strong>36</strong>, 2698–2713
+(2019).</div>
+</div>
+<div id="ref-bokelmann_genetic_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div
+class="csl-right-inline">Bokelmann, L., Hajdinjak, M., Peyrégne, S.,
+Brace, S., Essel, E., Filippo, C. de, Glocke, I., Grote, S.,
+<strong>Mafessoni,</strong> F., Nagel, S., Kelso, J., Prüfer, K.,
+Vernot, B., Barnes, I., Pääbo, S., Meyer, M. &amp; Stringer, C. <a
+href="https://doi.org/10.1073/pnas.1903984116">A genetic analysis of the
+<span>Gibraltar</span> <span>Neanderthals</span></a>. <em>Proceedings of
+the National Academy of Sciences of the United States of America</em>
+<strong>116</strong>, 15610–15615 (2019).</div>
+</div>
+<div id="ref-peyregne_nuclear_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div
+class="csl-right-inline">Peyrégne, S., Slon, V.,
+<strong>Mafessoni,</strong> F., Filippo, C. de, Hajdinjak, M., Nagel,
+S., Nickel, B., Essel, E., Cabec, A. L., Wehrberger, K., Conard, N. J.,
+Kind, C. J., Posth, C., Krause, J., Abrams, G., Bonjean, D., Modica, K.
+D., Toussaint, M., Kelso, J., Meyer, M., Pääbo, S. &amp; Prüfer, K. <a
+href="https://doi.org/10.1126/sciadv.aaw5873">Nuclear <span>DNA</span>
+from two early <span>Neandertals</span> reveals 80,000 years of genetic
+continuity in <span>Europe</span></a>. <em>Science Advances</em>
+<strong>5</strong>, eaaw5873 (2019).</div>
+</div>
+<div id="ref-mafessoni_complexity_2019" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">20. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F. &amp; Lachmann,
+M. <a href="https://doi.org/10.1038/s41598-019-41835-5">The complexity
+of understanding others as the evolutionary origin of empathy and
+emotional contagion</a>. <em>Scientific Reports</em> <strong>9</strong>,
+5794 (2019).</div>
+</div>
+<div id="ref-mafessoni_encounters_2019" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">21. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F. <a
+href="https://doi.org/10.1038/s41559-018-0729-6">Encounters with archaic
+hominins</a>. <em>Nature Ecology &amp; Evolution</em>
+<strong>3</strong>, 14–15 (2019).</div>
+</div>
+<div id="ref-douka_age_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div
+class="csl-right-inline">Douka, K., Slon, V., Jacobs, Z., Ramsey, C. B.,
+Shunkov, M. V., Derevianko, A. P., <strong>Mafessoni,</strong> F.,
+Kozlikin, M. B., Li, B., Grün, R., Comeskey, D., Devièse, T., Brown, S.,
+Viola, B., Kinsley, L., Buckley, M., Meyer, M., Roberts, R. G., Pääbo,
+S., Kelso, J. &amp; Higham, T. <a
+href="https://doi.org/10.1038/s41586-018-0870-z">Age estimates for
+hominin fossils and the onset of the <span>Upper</span>
+<span>Palaeolithic</span> at <span>Denisova</span>
+<span>Cave</span></a>. <em>Nature</em> <strong>565</strong>, 640
+(2019).</div>
+</div>
+<div id="ref-mafessoni_turning_2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F., Prasad, R. B.,
+Groop, L., Hansson, O. &amp; Prüfer, K. <a
+href="https://doi.org/10.1093/gbe/evy199">Turning <span>Vice</span> into
+<span>Virtue</span>: <span>Using</span>
+<span>Batch</span>-<span>Effects</span> to <span>Detect</span>
+<span>Errors</span> in <span>Large</span> <span>Genomic</span>
+<span>Data</span> <span>Sets</span></a>. <em>Genome Biology and
+Evolution</em> <strong>10</strong>, 2697–2708 (2018).</div>
+</div>
+<div id="ref-slon_genome_2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div
+class="csl-right-inline">Slon*, V., <strong>Mafessoni*,</strong> F.,
+Vernot*, B., Filippo, C. de, Grote, S., Viola, B., Hajdinjak, M.,
+Peyrégne, S., Nagel, S., Brown, S., Douka, K., Higham, T., Kozlikin, M.
+B., Shunkov, M. V., Derevianko, A. P., Kelso, J., Meyer, M., Prüfer, K.
+&amp; Pääbo, S. <a href="https://doi.org/10.1038/s41586-018-0455-x">The
+genome of the offspring of a <span>Neanderthal</span> mother and a
+<span>Denisovan</span> father</a>. <em>Nature</em> <strong>561</strong>,
+113 (2018).</div>
+</div>
+<div id="ref-hajdinjak_reconstructing_2018" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">25. </div><div
+class="csl-right-inline">Hajdinjak, M., Fu, Q., Hübner, A., Petr, M.,
+<strong>Mafessoni,</strong> F., Grote, S., Skoglund, P., Narasimham, V.,
+Rougier, H., Crevecoeur, I., Semal, P., Soressi, M., Talamo, S., Hublin,
+J.-J., Gušić, I., Kućan, Ž., Rudan, P., Golovanova, L. V., Doronichev,
+V. B., Posth, C., Krause, J., Korlević, P., Nagel, S., Nickel, B.,
+Slatkin, M., Patterson, N., Reich, D., Prüfer, K., Meyer, M., Pääbo, S.
+&amp; Kelso, J. <a
+href="https://doi.org/10.1038/nature26151">Reconstructing the genetic
+history of late <span>Neanderthals</span></a>. <em>Nature</em>
+<strong>555</strong>, 652–656 (2018).</div>
+</div>
+<div id="ref-mafessoni_better_2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F. &amp; Prüfer, K.
+<a href="https://doi.org/10.1073/pnas.1716918114">Better support for a
+small effective population size of <span>Neandertals</span> and a long
+shared history of <span>Neandertals</span> and
+<span>Denisovans</span></a>. <em>Proceedings of the National Academy of
+Sciences</em> <strong>114</strong>, E10256–E10257 (2017).</div>
+</div>
+<div id="ref-slon_neandertal_2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div
+class="csl-right-inline">Slon, V., Hopfe, C., Weiß, C. L.,
+<strong>Mafessoni,</strong> F., Rasilla, M. de la, Lalueza-Fox, C.,
+Rosas, A., Soressi, M., Knul, M. V., Miller, R., Stewart, J. R.,
+Derevianko, A. P., Jacobs, Z., Li, B., Roberts, R. G., Shunkov, M. V.,
+Lumley, H. de, Perrenoud, C., Gušić, I., Kućan, Ž., Rudan, P.,
+Aximu-Petri, A., Essel, E., Nagel, S., Nickel, B., Schmidt, A., Prüfer,
+K., Kelso, J., Burbano, H. A., Pääbo, S. &amp; Meyer, M. <a
+href="https://doi.org/10.1126/science.aam9695">Neandertal and
+<span>Denisovan</span> <span>DNA</span> from <span>Pleistocene</span>
+sediments</a>. <em>Science</em> <strong>356</strong>, 605–608
+(2017).</div>
+</div>
+<div id="ref-mafessoni_selective_2015" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">28. </div><div
+class="csl-right-inline"><strong>Mafessoni,</strong> F. &amp; Lachmann,
+M. <a href="https://doi.org/10.1534/genetics.115.178160">Selective
+<span>Strolls</span>: <span>Fixation</span> and <span>Extinction</span>
+in <span>Diploids</span> <span>Are</span> <span>Slower</span> for
+<span>Weakly</span> <span>Selected</span> <span>Mutations</span>
+<span>Than</span> for <span>Neutral</span> <span>Ones</span></a>.
+<em>Genetics</em> <strong>201</strong>, 1581–1589 (2015).</div>
+</div>
+<div id="ref-banti_heat-inducible_2010" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">29. </div><div
+class="csl-right-inline">Banti*, V., <strong>Mafessoni*,</strong> F.,
+Loreti, E., Alpi, A. &amp; Perata, P. <a
+href="https://doi.org/10.1104/pp.109.149815">The heat-inducible
+transcription factor <span>HsfA2</span> enhances anoxia tolerance in
+<span>Arabidopsis</span></a>. <em>Plant Physiology</em>
+<strong>152</strong>, 1471–1483 (2010).</div>
+</div>
+</div>
+```
+
+<!-- {{< include publications_bib.html >}} -->

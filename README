@@ -1,0 +1,17 @@
+#Use
+quarto preview
+#to visualize
+
+#I should have a publication/reseach page in which I list publications, and then for some selected ones I put a little plot on the right and a few sentences to explain it and feature it. I could do it for the selective strolls, denny, the empathy paper, chagyrskaya, perhaps danis paper.
+#Then some teaching resources: the fake simple psmc; linux minimanual; viterbi awk; perhaps the model from michael and jablonka, hinton & nowlan.  
+
+#to make the styling nice i always need to update first the pre html of the publication page before regenerating the whole site 
+pandoc --citeproc \
+       --bibliography mypublications.bib \
+       --csl nature_modified.csl \
+       --lua-filter filters/highlight-author.lua \
+       -f markdown -t html \
+       src/publications.md -o src/publications_bib.html
+
+#to insert new publications inline in qmd 
+sed '/<!-- PUBLICATIONS_HERE -->/r src/publications_bib.html' publications_src.qmd   | sed '/<!-- PUBLICATIONS_HERE -->/d' > publications.qmd

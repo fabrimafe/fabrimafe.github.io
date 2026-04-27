@@ -1,0 +1,16 @@
+---
+title: "Site Frequency Spectrum"
+date: 2026-04-05
+categories: [popgen]
+---
+
+## Idea
+
+Explore how selection affects the SFS.
+
+## Simulation
+
+```{r}
+n <- 100
+x <- rbeta(1000, 0.5, 0.5)
+hist(x, breaks = 30)

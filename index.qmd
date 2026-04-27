@@ -1,0 +1,35 @@
+---
+title: "Fabrizio Mafessoni"
+title-block-banner: images/Denisova_cave.JPG
+format:
+  html:
+    title-block-style: default
+---
+
+## About me
+
+I am an evolutionary and computational biologist, currently Assistant Professor at the University of Trieste.
+
+My work has been focused on:
+
+- ancient DNA, particularly in the context of archaic hominins
+- evolutionary modeling
+- population genomics
+
+## Currently working on: 
+
+- Methods to quantify genetic resources and biodiversity
+- Computational methods to link mutations and DNA repair mechanisms in the context of CRISPR
+- Ancient DNA from different regions of the world
+
+In case you are interested in any of these topics just drop me a line!
+
+## Teaching
+
+- "Evolutionary Biology" (6 CFU) for STB and STAN Bachelor students 
+- "Computational Genomics" (6 CFU) for the Master in Functional Genomics.
+
+## Contact
+
+- Email: fabrizio.mafessoni -[ do not spam please! ]- .units.it
+- GitHub: https://github.com/fabrimafe

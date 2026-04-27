@@ -1,0 +1,12 @@
+---
+title: "Publications"
+---
+[My Google Scholar](https://scholar.google.com/citations?user=8ZpAKoUAAAAJ&hl=en&oi=ao){target="_blank"}
+
+\* indicates authors with equal contributions
+
+```{=html}
+<!-- PUBLICATIONS_HERE -->
+```
+
+<!-- {{< include publications_bib.html >}} -->

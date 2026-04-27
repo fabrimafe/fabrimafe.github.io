@@ -1,0 +1,30 @@
+---
+title: "Code & Analyses"
+---
+
+This page collects small analyses, code snippets, and computational notes.
+
+These are not full projects, but reusable ideas, tests, or teaching material.
+
+---
+
+## 🧬 Population genetics
+
+- [Site Frequency Spectrum (SFS)](sfs.qmd)  
+  Notes and simulations of allele frequency distributions.
+
+- [Wright–Fisher simulations](wf_simulation.qmd)  
+  Simple forward simulations in R.
+
+---
+
+## 🧰 Command-line & pipelines
+
+- [AWK tricks](awk_tricks.qmd)  
+  Useful one-liners for filtering and parsing.
+
+---
+
+## 🔬 Reproducibility
+
+All pages are generated with Quarto and include executable code when relevant.
